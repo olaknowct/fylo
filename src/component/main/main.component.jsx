@@ -25,7 +25,7 @@ const Main = () => {
         </figure>
       </section>
       <section className='bg-darkBlue1'>
-        <div className='max-w-[100rem] mx-auto justify-center grid grid-cols-2 text-center gap-y-32'>
+        <div className='max-w-[100rem] mx-auto justify-center grid grid-cols-2 grid-rows-2 text-center gap-y-32'>
           <figure className='relative z-10 flex flex-col gap-9'>
             <div className='flex items-center justify-center h-[9rem]'>
               <AccessAnywhere className='' />
