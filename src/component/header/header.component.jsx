@@ -7,7 +7,7 @@ const Header = () => {
         <FyloLogo />
       </a>
       <nav className=''>
-        <ul className='flex flex-row gap-[5.8rem] text-[1.6rem] items-center justify-center hidden md:block'>
+        <ul className='md:flex flex-row gap-[5.8rem] text-[1.6rem] items-center justify-center hidden '>
           <li>
             <a href='#features'>Features</a>
           </li>
