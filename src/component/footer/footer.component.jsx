@@ -13,15 +13,15 @@ const Footer = () => {
         <a href='#fylo' className='md:mx-auto lg:mx-0'>
           <FyloLogo />
         </a>
-        <nav className='grid grid-cols-6 text-2xl '>
-          <p className='gap-12 col-span-2 flex flex-row tracking-wide'>
+        <nav className='grid md:grid-cols-4 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-7 text-2xl gap-y-16'>
+          <p className='gap-12 md:col-span-2 lg:col-span-3 flex flex-row tracking-wide md:order-1 lg:order-1'>
             <Location className='self-start flex' />
             <span className='max-w-lg'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua
             </span>
           </p>
-          <ul className='flex col-span-1 ml-auto flex-col gap-8'>
+          <ul className='flex col-span-1 md:mr-auto lg:ml-auto flex-col gap-8 lg:order-2 md:order-2'>
             <li className='flex gap-6'>
               <Phone />
               +1-543-123-4567
@@ -31,18 +31,18 @@ const Footer = () => {
               example@fylo.com
             </li>
           </ul>
-          <ul className='flex ml-auto flex-col gap-7'>
+          <ul className='flex lg:ml-auto md:ml-auto md:col-span-2 lg:col-span-1 md:flex-row lg:flex-col gap-7 lg:order-3 md:order-4'>
             <li>About Us</li>
             <li>Jobs</li>
             <li>Press</li>
             <li>Blog</li>
           </ul>
-          <ul className='flex flex-col ml-auto gap-7'>
+          <ul className='flex lg:flex-col lg:ml-auto md:flex-row ml-auto gap-7 lg:order-4 md:order-3'>
             <li>Contact Us</li>
             <li>Terms</li>
             <li>Privacy</li>
           </ul>
-          <ul className='flex items-center justify-center flex-row ml-auto self-start gap-6'>
+          <ul className='flex items-center justify-center flex-row ml-auto self-start gap-6 lg:order-5 md:order-5'>
             <li className='p-1 rounded-full border'>
               <Fb />
             </li>
