@@ -8,8 +8,8 @@ import { ReactComponent as Email } from '../../images/icon-email.svg';
 
 const Footer = () => {
   return (
-    <footer className='bg-darkBlue2'>
-      <div className=' py-[20rem] px-[2rem] max-w-[124rem] mx-auto flex flex-col gap-14'>
+    <footer className='bg-darkBlue2 '>
+      <div className=' pb-[20rem] px-[2rem] max-w-[124rem] mx-auto flex flex-col gap-14'>
         <a href='#fylo' className='md:mx-auto lg:mx-0'>
           <FyloLogo />
         </a>
@@ -31,18 +31,18 @@ const Footer = () => {
               example@fylo.com
             </li>
           </ul>
-          <ul className='flex lg:ml-auto md:ml-auto md:col-span-2 lg:col-span-1 md:flex-row lg:flex-col gap-7 lg:order-3 md:order-4'>
+          <ul className='flex flex-col lg:ml-auto md:ml-auto md:col-span-2 lg:col-span-1 md:flex-row lg:flex-col gap-7 lg:order-3 md:order-4'>
             <li>About Us</li>
             <li>Jobs</li>
             <li>Press</li>
             <li>Blog</li>
           </ul>
-          <ul className='flex lg:flex-col lg:ml-auto md:flex-row ml-auto gap-7 lg:order-4 md:order-3'>
+          <ul className='flex flex-col lg:flex-col md:mr-auto lg:ml-auto md:flex-row gap-7 lg:order-4 md:order-3'>
             <li>Contact Us</li>
             <li>Terms</li>
             <li>Privacy</li>
           </ul>
-          <ul className='flex items-center justify-center flex-row ml-auto self-start gap-6 lg:order-5 md:order-5'>
+          <ul className='flex items-center justify-center flex-row md:mr-auto lg:ml-auto self-start gap-6 lg:order-5 md:order-5'>
             <li className='p-1 rounded-full border'>
               <Fb />
             </li>

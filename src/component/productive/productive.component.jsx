@@ -4,11 +4,11 @@ import { ReactComponent as Arrow } from '../../images/icon-arrow.svg';
 const Productive = () => {
   return (
     <section className='bg-darkBlue1'>
-      <div className='max-w-[123rem] mx-auto pt-[14rem]'>
-        <figure className='flex flex-row gap-20 justify-center items-center '>
+      <div className='max-w-[127rem] px-[2rem] mx-auto pt-[14rem]'>
+        <figure className='flex flex-col lg:flex-row gap-20 justify-center items-center '>
           <img src={StayProductive} alt='Stay Productive' />
           <figcaption className='flex flex-col gap-6 pt-[3rem] pl-[0.6rem]'>
-            <h2 className='text-[4rem] leading-[5rem]  max-w-2xl font-bold '>
+            <h2 className='text-[4rem] leading-[5rem] max-w-2xl font-bold '>
               Stay productive, wherever you are
             </h2>
             <p className='text-[1.6rem]'>

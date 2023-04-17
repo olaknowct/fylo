@@ -3,7 +3,7 @@ import IllustrationIntro from '../../images/illustration-intro.png';
 const Hero = () => {
   return (
     <section className='pb-[16.5rem] bg-curvy-dark-mode bg-contain bg-no-repeat bg-bottom'>
-      <figure className='max-w-[144rem] mx-auto flex flex-col items-center justify-center text-center font-bold gap-[3.8rem]'>
+      <figure className='max-w-[144rem] px-[2rem] mx-auto flex flex-col items-center justify-center text-center font-bold gap-[3.8rem]'>
         <img src={IllustrationIntro} alt='illustration intro' />
         <figcaption className='tracking-[0.01rem] flex flex-col justify-center items-center gap-[3.3rem]'>
           <h1 className='font-sans text-[4rem] max-w-6xl mx-auto '>

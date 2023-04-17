@@ -1,7 +1,7 @@
 const CallToAction = () => {
   return (
-    <section className='relative'>
-      <div className='absolute left-1/2 w-[86rem] bg-darkBlue shadow-lg text-white text-center -translate-y-2/4 -translate-x-2/4 py-16 flex flex-col items-center gap-8'>
+    <section className='bg-darkBlue2 px-[2rem] '>
+      <div className='mx-auto px-[2rem] max-w-[86rem] bg-darkBlue shadow-lg text-white text-center -translate-y-2/4 py-16 flex flex-col items-center gap-8'>
         <h2 className='font-bold text-[3rem] tracking-wide'>Get early access today</h2>
         <p className='text-[1.4rem] max-w-5xl mx-auto'>
           It only takes a minute to sign up and our free starter tier is extremely generous. If you
@@ -11,7 +11,7 @@ const CallToAction = () => {
           <input
             type='text'
             placeholder='email@example.com'
-            className='py-[1.5rem] rounded-full grow'
+            className='py-[1.5rem] rounded-full grow pl-10'
           />
           <button className='bg-accentBlue rounded-full text-[1.5rem] px-12 ml-auto'>
             Get Started For Free

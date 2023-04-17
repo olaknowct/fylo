@@ -7,7 +7,7 @@ const Features = () => {
 
   return (
     <section className='bg-darkBlue1'>
-      <div className='max-w-[100rem] mx-auto justify-center grid grid-cols-2 grid-rows-2 text-center gap-y-32'>
+      <div className='max-w-[100rem] mx-auto justify-center grid grid-cols-1 lg:grid-cols-2 grid-rows-2 text-center gap-y-32'>
         {features.map((feature) => (
           <Feature key={feature.id} feature={feature} />
         ))}
