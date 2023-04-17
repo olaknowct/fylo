@@ -1,7 +1,7 @@
 import StayProductive from '../../images/illustration-stay-productive.png';
 import { ReactComponent as Arrow } from '../../images/icon-arrow.svg';
 
-const CallToAction = () => {
+const Productive = () => {
   return (
     <section className='bg-darkBlue1'>
       <div className='max-w-[123rem] mx-auto pt-[14rem]'>
@@ -33,4 +33,4 @@ const CallToAction = () => {
   );
 };
 
-export default CallToAction;
+export default Productive;
