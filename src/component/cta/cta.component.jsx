@@ -1,13 +1,13 @@
 const CallToAction = () => {
   return (
-    <section className='bg-darkBlue2 h-screen'>
-      <div className='max-w-[86rem] mx-auto bg-darkBlue shadow-lg text-white text-center -translate-y-2/4 py-16 flex flex-col items-center gap-8'>
+    <section className='relative'>
+      <div className='absolute left-1/2 w-[86rem] bg-darkBlue shadow-lg text-white text-center -translate-y-2/4 -translate-x-2/4 py-16 flex flex-col items-center gap-8'>
         <h2 className='font-bold text-[3rem] tracking-wide'>Get early access today</h2>
         <p className='text-[1.4rem] max-w-5xl mx-auto'>
           It only takes a minute to sign up and our free starter tier is extremely generous. If you
-          have any questions, our support team would be happy to help you.
+          have any questions, our support team would be happy to help you. lorem
         </p>
-        <form className='flex flex-row max-w-[71rem] justify-between w-full gap-10 mt-[2rem] mb-[4rem] '>
+        <form className='flex flex-row max-w-[71rem] justify-between w-full gap-10 mt-[2rem] mb-[4rem]'>
           <input
             type='text'
             placeholder='email@example.com'
