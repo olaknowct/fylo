@@ -10,7 +10,7 @@ const Feature = ({ feature }) => {
       </div>
       <figcaption className='max-w-xl mx-auto flex flex-col gap-4'>
         <h4 className='text-[1.8rem] font-bold'>{title}</h4>
-        <p className='text-[1.4rem] font-thin'>{description}</p>
+        <p className='text-[1.3rem] '>{description}</p>
       </figcaption>
     </figure>
   );
