@@ -1,7 +1,8 @@
 import { FeatureProvider } from '../../context/feature.context';
-import CallToAction from '../cta/cta.component';
+import Productive from '../productive/productive.component';
 import Features from '../features/features.component';
 import Hero from '../hero/hero.component';
+import Reviews from '../reviews/reviews.component';
 
 const Main = () => {
   return (
@@ -10,7 +11,8 @@ const Main = () => {
       <FeatureProvider>
         <Features />
       </FeatureProvider>
-      <CallToAction />
+      <Productive />
+      <Reviews />
     </main>
   );
 };
