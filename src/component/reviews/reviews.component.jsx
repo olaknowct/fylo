@@ -4,7 +4,7 @@ import quotes from '../../images/bg-quotes.png';
 
 const Reviews = () => {
   return (
-    <section className='bg-darkBlue1 pt-[18rem] relative'>
+    <section className='bg-darkBlue1 pt-[18rem] pb-[33.6rem] relative '>
       <div className='max-w-[119rem] mx-auto justify-center grid grid-cols-3 text-center gap-x-16 '>
         <ReviewProvider>
           <Review />

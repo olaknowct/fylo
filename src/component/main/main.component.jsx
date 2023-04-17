@@ -3,6 +3,7 @@ import Productive from '../productive/productive.component';
 import Features from '../features/features.component';
 import Hero from '../hero/hero.component';
 import Reviews from '../reviews/reviews.component';
+import CallToAction from '../cta/cta.component';
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       </FeatureProvider>
       <Productive />
       <Reviews />
+      <CallToAction />
     </main>
   );
 };
