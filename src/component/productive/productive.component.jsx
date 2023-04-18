@@ -3,7 +3,7 @@ import { ReactComponent as Arrow } from '../../images/icon-arrow.svg';
 
 const Productive = () => {
   return (
-    <section className='bg-darkBlue1'>
+    <section className='bg-darkBlue1 dark:bg-gray-50'>
       <div className='max-w-[127rem] px-[2rem] mx-auto pt-[14rem]'>
         <figure className='flex flex-col lg:flex-row gap-20 justify-center items-center '>
           <img src={StayProductive} alt='Stay Productive' />

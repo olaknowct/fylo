@@ -14,7 +14,7 @@ const Review = () => {
   };
 
   return reviews.map(({ id, name, reviews, position }) => (
-    <figure className='relative z-10 flex flex-col gap-9 bg-darkBlue3 py-16 px-10 rounded-2xl shadow-xl shadow-darkBlue3'>
+    <figure className='relative z-10 flex flex-col gap-9 bg-darkBlue3 dark:bg-white  py-16 px-10 rounded-2xl shadow-xl dark:shadow-lg shadow-darkBlue3'>
       <p className='text-[1.5rem]  text-left leading-2'>{reviews}</p>
       <div className='flex flex-row gap-2 items-center'>
         <img key={id} src={Profile[name.split(' ')[0]]} alt={name} className='rounded-full h-12' />

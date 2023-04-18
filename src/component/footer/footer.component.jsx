@@ -1,17 +1,21 @@
-import { ReactComponent as FyloLogo } from '../../images/logo-dark-mode.svg';
 import { ReactComponent as Location } from '../../images/icon-location.svg';
 import { ReactComponent as Twtr } from '../../images/twitter.svg';
 import { ReactComponent as Fb } from '../../images/facebook.svg';
 import { ReactComponent as Ig } from '../../images/instagram.svg';
 import { ReactComponent as Phone } from '../../images/icon-phone.svg';
 import { ReactComponent as Email } from '../../images/icon-email.svg';
+import { ReactComponent as FyloLogoDark } from '../../images/logo-dark-mode.svg';
+import { ReactComponent as FyloLogoLight } from '../../images/logo-light-mode.svg';
+import { useContext } from 'react';
+import { DarkModeContext } from '../../context/darkmode.context';
 
 const Footer = () => {
+  const { isDarkMode } = useContext(DarkModeContext);
   return (
-    <footer className='bg-darkBlue2 '>
+    <footer className='bg-darkBlue2 dark:bg-white '>
       <div className=' pb-[20rem] px-[2rem] max-w-[124rem] mx-auto flex flex-col gap-14'>
         <a href='#fylo' className='md:mx-auto lg:mx-0'>
-          <FyloLogo />
+          {isDarkMode ? <FyloLogoLight /> : <FyloLogoDark />}
         </a>
         <nav className='grid md:grid-cols-4 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-7 text-2xl gap-y-16'>
           <p className='gap-12 md:col-span-2 lg:col-span-3 flex flex-row tracking-wide md:order-1 lg:order-1'>
