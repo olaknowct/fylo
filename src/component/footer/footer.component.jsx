@@ -13,7 +13,7 @@ const Footer = () => {
   const { isDarkMode } = useContext(DarkModeContext);
   return (
     <footer className='bg-darkBlue2 dark:bg-white '>
-      <div className=' pb-[20rem] px-[2rem] max-w-[124rem] mx-auto flex flex-col gap-14'>
+      <div className=' pb-[12rem] px-[2rem] max-w-[124rem] mx-auto flex flex-col gap-14'>
         <a href='#fylo' className='md:mx-auto lg:mx-0'>
           {isDarkMode ? <FyloLogoLight /> : <FyloLogoDark />}
         </a>
@@ -59,6 +59,17 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
+        <p class='text-center text-2xl mt-[4rem]'>
+          Challenge by{' '}
+          <a href='https://www.frontendmentor.io?ref=challenge' target='_blank' rel='noreferrer'>
+            Frontend Mentor
+          </a>
+          . Coded by{' '}
+          <a href='https://github.com/olaknowct' className='text-accentCyan'>
+            Christopher Olano
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );
