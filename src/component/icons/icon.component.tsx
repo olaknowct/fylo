@@ -9,7 +9,7 @@ interface IconProps {
   type: IconType;
 }
 
-const Icon = ({ type }: IconProps) => {
+const Icon = ({ type }: IconProps): JSX.Element => {
   const Icons = {
     AccessAnywhere,
     AnyFile,

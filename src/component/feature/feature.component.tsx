@@ -1,7 +1,7 @@
 import { FeaturesProps } from '../../context/feature.context';
 import Icon from '../icons/icon.component';
 
-const Feature = ({ feature }: FeaturesProps) => {
+const Feature = ({ feature }: FeaturesProps): JSX.Element => {
   const { title, description, svg } = feature;
 
   return (

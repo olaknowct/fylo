@@ -1,4 +1,4 @@
-const CallToAction = () => {
+const CallToAction = (): JSX.Element => {
   return (
     <section className='bg-darkBlue2 px-[2rem] dark:bg-white'>
       <div className='mx-auto px-[2rem] max-w-[86rem] bg-darkBlue shadow-lg text-white text-center -translate-y-2/4 py-16 flex flex-col items-center gap-8'>

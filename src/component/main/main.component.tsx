@@ -5,7 +5,7 @@ import Hero from '../hero/hero.component';
 import Reviews from '../reviews/reviews.component';
 import CallToAction from '../cta/cta.component';
 
-const Main = () => {
+const Main = (): JSX.Element => {
   return (
     <main>
       <Hero />

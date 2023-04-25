@@ -9,7 +9,7 @@ import { ReactComponent as FyloLogoLight } from '../../images/logo-light-mode.sv
 import { useContext } from 'react';
 import { DarkModeContext } from '../../context/darkmode.context';
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   const { isDarkMode } = useContext(DarkModeContext);
   return (
     <footer className='bg-darkBlue2 dark:bg-white '>

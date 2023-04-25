@@ -2,7 +2,7 @@ import Feature from '../feature/feature.component';
 import { useContext } from 'react';
 import { FeatureContext } from '../../context/feature.context';
 
-const Features = () => {
+const Features = (): JSX.Element => {
   const { features } = useContext(FeatureContext);
 
   return (

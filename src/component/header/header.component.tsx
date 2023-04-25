@@ -4,7 +4,7 @@ import { ReactComponent as FyloLogoLight } from '../../images/logo-light-mode.sv
 import { DarkModeContext } from '../../context/darkmode.context';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
-const Header = () => {
+const Header = (): JSX.Element => {
   const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
   return (
     <header className='max-w-[144rem] flex flex-col md:flex-row items-center justify-between mx-auto px-32 py-[7.3rem]'>
