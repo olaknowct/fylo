@@ -1,4 +1,15 @@
-import { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
+
+export type Features = {
+  id: number;
+  title: string;
+  description: string;
+  svg: string;
+};
+
+export type FeaturesProps = {
+  feature: Features;
+};
 
 const featuresData = [
   {
@@ -34,12 +45,14 @@ const featuresData = [
   },
 ];
 
-export const FeatureContext = createContext({
+type FeaturesContextType = { features: Features[] };
+
+export const FeatureContext = createContext<FeaturesContextType>({
   features: [],
 });
 
-export const FeatureProvider = ({ children }) => {
-  const [features] = useState(featuresData);
+export const FeatureProvider = ({ children }: { children: React.ReactNode }) => {
+  const [features] = useState<Features[]>(featuresData);
 
   const value = { features };
 

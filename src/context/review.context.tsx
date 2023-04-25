@@ -1,5 +1,11 @@
-import { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 
+export type Review = {
+  id: number;
+  name: string;
+  position: string;
+  reviews: string;
+};
 const reviewsData = [
   {
     id: 1,
@@ -26,12 +32,16 @@ const reviewsData = [
   },
 ];
 
-export const ReviewContext = createContext({
+type ReviewsContextType = {
+  reviews: Review[];
+};
+
+export const ReviewContext = createContext<ReviewsContextType>({
   reviews: [],
 });
 
-export const ReviewProvider = ({ children }) => {
-  const [reviews] = useState(reviewsData);
+export const ReviewProvider = ({ children }: { children: React.ReactNode }) => {
+  const [reviews] = useState<Review[]>(reviewsData);
 
   const value = { reviews };
 
