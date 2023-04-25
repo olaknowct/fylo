@@ -6,7 +6,7 @@ export type Review = {
   position: string;
   reviews: string;
 };
-const reviewsData = [
+const reviewsData: Review[] = [
   {
     id: 1,
     name: 'Satish Patel',
