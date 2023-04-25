@@ -1,6 +1,6 @@
 import IllustrationIntro from '../../images/illustration-intro.png';
 
-const Hero = () => {
+const Hero = (): JSX.Element => {
   return (
     <section className='pb-[16.5rem] bg-curvy-dark-mode dark:bg-curvy-light-mode bg-contain bg-no-repeat bg-bottom'>
       <figure className='max-w-[144rem] px-[2rem] mx-auto flex flex-col items-center justify-center text-center font-bold gap-[3.8rem]'>
