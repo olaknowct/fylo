@@ -59,7 +59,7 @@ const Footer = () => {
             </li>
           </ul>
         </nav>
-        <p class='text-center text-2xl mt-[4rem]'>
+        <p className='text-center text-2xl mt-[4rem]'>
           Challenge by{' '}
           <a href='https://www.frontendmentor.io?ref=challenge' target='_blank' rel='noreferrer'>
             Frontend Mentor
