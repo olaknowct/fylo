@@ -22,17 +22,17 @@ const Header = () => {
           <li className='group'>
             <a href='#features'>
               Features
-              <span class='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
+              <span className='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
             </a>
           </li>
           <li className='group'>
             <a href='#team'>Team</a>
-            <span class='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
+            <span className='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
           </li>
           <li className='group'>
             <a href='#signin'>
               Sign in
-              <span class='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
+              <span className='block mt-2 mx-2 opacity-0 group-hover:opacity-100 transition-all duration-500 h-0.5 bg-white'></span>
             </a>
           </li>
         </ul>
