@@ -3,7 +3,13 @@ import { ReactComponent as AnyFile } from '../../images/icon-any-file.svg';
 import { ReactComponent as Colab } from '../../images/icon-collaboration.svg';
 import { ReactComponent as Security } from '../../images/icon-security.svg';
 
-const Icon = ({ type }) => {
+type IconType = 'AccessAnywhere' | 'AnyFile' | 'Colab' | 'Security';
+
+interface IconProps {
+  type: IconType;
+}
+
+const Icon = ({ type }: IconProps) => {
   const Icons = {
     AccessAnywhere,
     AnyFile,

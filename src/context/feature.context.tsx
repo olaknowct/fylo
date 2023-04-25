@@ -1,17 +1,17 @@
 import React, { createContext, useState } from 'react';
 
-export type Features = {
+export type Feature = {
   id: number;
   title: string;
   description: string;
-  svg: string;
+  svg: 'AccessAnywhere' | 'AnyFile' | 'Colab' | 'Security';
 };
 
 export type FeaturesProps = {
-  feature: Features;
+  feature: Feature;
 };
 
-const featuresData = [
+const featuresData: Feature[] = [
   {
     id: 1,
     title: 'Access your files from anywhere',
@@ -45,14 +45,14 @@ const featuresData = [
   },
 ];
 
-type FeaturesContextType = { features: Features[] };
+type FeaturesContextType = { features: Feature[] };
 
 export const FeatureContext = createContext<FeaturesContextType>({
   features: [],
 });
 
 export const FeatureProvider = ({ children }: { children: React.ReactNode }) => {
-  const [features] = useState<Features[]>(featuresData);
+  const [features] = useState<Feature[]>(featuresData);
 
   const value = { features };
 
